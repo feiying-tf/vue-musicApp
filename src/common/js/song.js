@@ -40,7 +40,8 @@ export function createSong (musicData) {
         duration: musicData.interval,
         image: `https://y.gtimg.cn/music/photo_new/T002R300x300M000${musicData.albummid}.jpg?max_age=2592000`,
         // 音乐地址
-        url: `http://ws.stream.qqmusic.qq.com/C100${musicData.songmid}.m4a?fromtag=38`
+        // url: `http://ws.stream.qqmusic.qq.com/C100${musicData.songmid}.m4a?fromtag=38`
+        url: `http://dl.stream.qqmusic.qq.com/C400${musicData.songmid}.m4a?guid=106795008&vkey=AE1D90F43963ABF97FAE0968D8581710AF21B640A32A93C45FF503192B6D352DCCE278E904C9FCC09D883B9AA30BEEDDBE7112C05DA7603D&fromtag=38`
     });
 }
 export function filterSinger (singer) {
