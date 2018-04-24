@@ -3,6 +3,10 @@
 ## 预览链接
 https://tfeng-use.github.io/vue-music.github.io/#/recommend
 * 注：由于推荐页面的歌单推荐与播放器页面中的歌词都是通过在本地开启一个服务器，再向qq服务器申请数据的方法，所以通过github pages生成的网页是无法显示这两个地方的；
+### 歌单推荐部分效果展示
+![歌单推荐](https://github.com/tfeng-use/vue-musicApp/blob/master/music-img/%E7%83%AD%E9%97%A8%E6%AD%8C%E5%8D%95%E6%8E%A8%E8%8D%90.gif)
+### 歌词效果部分
+![歌词效果](https://github.com/tfeng-use/vue-musicApp/blob/master/music-img/%E6%AD%8C%E8%AF%8D%E9%83%A8%E5%88%86.gif)
 ## 功能
 1. 实现多个页面的滚动效果、轮播图；
 2. 实现图片的懒加载；
